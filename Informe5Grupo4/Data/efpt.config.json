@@ -1,0 +1,85 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "Informe4Context",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "Data",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "public.Bono",
+         "ObjectType": 0
+      },
+      {
+         "Name": "public.BonoEstado",
+         "ObjectType": 0
+      },
+      {
+         "Name": "public.Domicilio",
+         "ObjectType": 0
+      },
+      {
+         "Name": "public.Entrega",
+         "ObjectType": 0
+      },
+      {
+         "Name": "public.Localidad",
+         "ObjectType": 0
+      },
+      {
+         "Name": "public.ObraSocial",
+         "ObjectType": 0
+      },
+      {
+         "Name": "public.Odontologo",
+         "ObjectType": 0
+      },
+      {
+         "Name": "public.OdontologoEstado",
+         "ObjectType": 0
+      },
+      {
+         "Name": "public.Paciente",
+         "ObjectType": 0
+      },
+      {
+         "Name": "public.Practica",
+         "ObjectType": 0
+      },
+      {
+         "Name": "public.Provincia",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": ".Informe4",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
