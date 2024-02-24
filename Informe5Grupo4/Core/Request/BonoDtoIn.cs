@@ -12,8 +12,6 @@ namespace Core.Request
 
         public int Numero { get; set; }
 
-        
-
         public int IdOdontologo { get; set; }
 
         public int IdObraSocial { get; set; }
