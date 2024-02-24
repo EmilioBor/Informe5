@@ -104,7 +104,6 @@ namespace Services
             }
 
         }
-
         public async Task Delete(int id)
         {
             var bonoToDelete = await GetById(id);
@@ -116,26 +115,6 @@ namespace Services
                 await _context.SaveChangesAsync();
             }
 
-        }
-
-        Task<IEnumerable<ProvinciaDtoOut>> IBonoService.GetAll()
-        {
-            throw new NotImplementedException();
-        }
-
-        Task<Provincia?> IBonoService.GetById(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<Provincia> Create(ProvinciaDtoIn newProvinciaDTO)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task Update(int id, ProvinciaDtoIn provincia)
-        {
-            throw new NotImplementedException();
         }
     }
 }

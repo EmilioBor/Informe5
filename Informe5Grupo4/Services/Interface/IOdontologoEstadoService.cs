@@ -6,10 +6,10 @@ namespace Services.Interface
 {
     public interface IOdontologoEstadoService
     {
-        Task<IEnumerable<ProvinciaDtoOut>> GetAll();
-        Task<Provincia?> GetById(int id);
-        Task<Provincia> Create(ProvinciaDtoIn newProvinciaDTO);
-        Task Update(int id, ProvinciaDtoIn provincia);
+        Task<IEnumerable<OdontologoEstadoDtoOut>> GetAll();
+        Task<OdontologoEstado?> GetById(int id);
+        Task<OdontologoEstado> Create(OdontologoEstadoDtoIn newOdontologoEstadoDTO);
+        Task Update(int id, OdontologoEstadoDtoIn odontologoEstado);
         Task Delete(int id);
     }
 }

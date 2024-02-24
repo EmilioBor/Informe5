@@ -102,25 +102,5 @@ namespace Services
             }
 
         }
-
-        Task<IEnumerable<ProvinciaDtoOut>> IEntregaService.GetAll()
-        {
-            throw new NotImplementedException();
-        }
-
-        Task<Provincia?> IEntregaService.GetById(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<Provincia> Create(ProvinciaDtoIn newProvinciaDTO)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task Update(int id, ProvinciaDtoIn provincia)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

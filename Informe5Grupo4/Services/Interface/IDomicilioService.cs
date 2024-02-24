@@ -6,10 +6,10 @@ namespace Services
 {
     public interface IDomicilioService
     {
-        Task<IEnumerable<ProvinciaDtoOut>> GetAll();
-        Task<Provincia?> GetById(int id);
-        Task<Provincia> Create(ProvinciaDtoIn newProvinciaDTO);
-        Task Update(int id, ProvinciaDtoIn provincia);
+        Task<IEnumerable<DomicilioDtoOut>> GetAll();
+        Task<Domicilio?> GetById(int id);
+        Task<Domicilio> Create(DomicilioDtoIn newDomicilioDTO);
+        Task Update(int id, DomicilioDtoIn domicilio);
         Task Delete(int id);
     }
 }

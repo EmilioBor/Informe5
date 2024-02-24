@@ -6,10 +6,10 @@ namespace Services.Interface
 {
     public interface IEntregaService
     {
-        Task<IEnumerable<ProvinciaDtoOut>> GetAll();
-        Task<Provincia?> GetById(int id);
-        Task<Provincia> Create(ProvinciaDtoIn newProvinciaDTO);
-        Task Update(int id, ProvinciaDtoIn provincia);
+        Task<IEnumerable<EntregaDtoOut>> GetAll();
+        Task<Entrega?> GetById(int id);
+        Task<Entrega> Create(EntregaDtoIn newEntregaDTO);
+        Task Update(int id, EntregaDtoIn entrega);
         Task Delete(int id);
     }
 }

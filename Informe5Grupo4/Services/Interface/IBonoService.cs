@@ -6,10 +6,10 @@ namespace Services.Interface
 {
     public interface IBonoService
     {
-        Task<IEnumerable<ProvinciaDtoOut>> GetAll();
-        Task<Provincia?> GetById(int id);
-        Task<Provincia> Create(ProvinciaDtoIn newProvinciaDTO);
-        Task Update(int id, ProvinciaDtoIn provincia);
+        Task<IEnumerable<BonoDtoOut>> GetAll();
+        Task<Bono?> GetById(int id);
+        Task<Bono> Create(BonoDtoIn newBonoDTO);
+        Task Update(int id, BonoDtoIn bono);
         Task Delete(int id);
     }
 }

@@ -6,10 +6,10 @@ namespace Services
 {
     public interface IObraSocialService
     {
-        Task<IEnumerable<ProvinciaDtoOut>> GetAll();
-        Task<Provincia?> GetById(int id);
-        Task<Provincia> Create(ProvinciaDtoIn newProvinciaDTO);
-        Task Update(int id, ProvinciaDtoIn provincia);
+        Task<IEnumerable<ObraSocialDtoOut>> GetAll();
+        Task<ObraSocial?> GetById(int id);
+        Task<ObraSocial> Create(ObraSocialDtoIn newObraSocialDTO);
+        Task Update(int id, ObraSocialDtoIn obraSocial);
         Task Delete(int id);
     }
 }
