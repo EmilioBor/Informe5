@@ -1,5 +1,7 @@
 using Data.Models;
 using Microsoft.EntityFrameworkCore;
+using Services;
+using Services.Interface;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -33,8 +35,18 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<Informe4Context>(options =>
 options.UseNpgsql(builder.Configuration.GetConnectionString("Connection")));
 
-
-
+//----
+builder.Services.AddScoped<IBonoService, BonoService>();
+builder.Services.AddScoped<IBonoEstadoService, BonoEstadoService>();
+builder.Services.AddScoped<IDomicilioService, DomicilioService>();
+builder.Services.AddScoped<IEntregaService, EntregaService>();
+builder.Services.AddScoped<ILocalidadService, LocalidadService>();
+builder.Services.AddScoped<IObraSocialService, ObraSocialService>();
+builder.Services.AddScoped<IOdontologoEstadoService,  OdontologoEstadoService>();
+builder.Services.AddScoped<IOdontologoService, OdontologoService>();
+builder.Services.AddScoped<IPacienteService, PacienteService>();
+builder.Services.AddScoped<IPracticaService, PracticaService>();
+builder.Services.AddScoped<IProvinciaService, ProvinciaService>();
 
 var app = builder.Build();
 

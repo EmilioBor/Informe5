@@ -10,3 +10,4 @@ C:\Users\emili\OneDrive\Escritorio\Diseño de Sistemas\Grupo4\Informe5Grupo4\Dat
 C:\Users\emili\OneDrive\Escritorio\Diseño de Sistemas\Grupo4\Informe5Grupo4\Data\obj\Debug\net8.0\refint\Data.dll
 C:\Users\emili\OneDrive\Escritorio\Diseño de Sistemas\Grupo4\Informe5Grupo4\Data\obj\Debug\net8.0\Data.pdb
 C:\Users\emili\OneDrive\Escritorio\Diseño de Sistemas\Grupo4\Informe5Grupo4\Data\obj\Debug\net8.0\ref\Data.dll
+C:\Users\emili\OneDrive\Escritorio\Diseño de Sistemas\Grupo4\Informe5Grupo4\Data\obj\Debug\net8.0\Data.sourcelink.json

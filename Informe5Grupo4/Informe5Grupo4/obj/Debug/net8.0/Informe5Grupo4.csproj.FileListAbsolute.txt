@@ -24,7 +24,6 @@ C:\Users\emili\OneDrive\Escritorio\Diseño de Sistemas\Grupo4\Informe5Grupo4\Inf
 C:\Users\emili\OneDrive\Escritorio\Diseño de Sistemas\Grupo4\Informe5Grupo4\Informe5Grupo4\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Informe5Grupo4.props
 C:\Users\emili\OneDrive\Escritorio\Diseño de Sistemas\Grupo4\Informe5Grupo4\Informe5Grupo4\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\emili\OneDrive\Escritorio\Diseño de Sistemas\Grupo4\Informe5Grupo4\Informe5Grupo4\obj\Debug\net8.0\scopedcss\bundle\Informe5Grupo4.styles.css
-C:\Users\emili\OneDrive\Escritorio\Diseño de Sistemas\Grupo4\Informe5Grupo4\Informe5Grupo4\obj\Debug\net8.0\Informe5Grupo4.csproj.CopyComplete
 C:\Users\emili\OneDrive\Escritorio\Diseño de Sistemas\Grupo4\Informe5Grupo4\Informe5Grupo4\obj\Debug\net8.0\Informe5Grupo4.dll
 C:\Users\emili\OneDrive\Escritorio\Diseño de Sistemas\Grupo4\Informe5Grupo4\Informe5Grupo4\obj\Debug\net8.0\refint\Informe5Grupo4.dll
 C:\Users\emili\OneDrive\Escritorio\Diseño de Sistemas\Grupo4\Informe5Grupo4\Informe5Grupo4\obj\Debug\net8.0\Informe5Grupo4.pdb
@@ -104,3 +103,9 @@ C:\Users\emili\OneDrive\Escritorio\Diseño de Sistemas\Grupo4\Informe5Grupo4\Inf
 C:\Users\emili\OneDrive\Escritorio\Diseño de Sistemas\Grupo4\Informe5Grupo4\Informe5Grupo4\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\emili\OneDrive\Escritorio\Diseño de Sistemas\Grupo4\Informe5Grupo4\Informe5Grupo4\bin\Debug\net8.0\Data.dll
 C:\Users\emili\OneDrive\Escritorio\Diseño de Sistemas\Grupo4\Informe5Grupo4\Informe5Grupo4\bin\Debug\net8.0\Data.pdb
+C:\Users\emili\OneDrive\Escritorio\Diseño de Sistemas\Grupo4\Informe5Grupo4\Informe5Grupo4\bin\Debug\net8.0\Core.dll
+C:\Users\emili\OneDrive\Escritorio\Diseño de Sistemas\Grupo4\Informe5Grupo4\Informe5Grupo4\bin\Debug\net8.0\Services.dll
+C:\Users\emili\OneDrive\Escritorio\Diseño de Sistemas\Grupo4\Informe5Grupo4\Informe5Grupo4\bin\Debug\net8.0\Services.pdb
+C:\Users\emili\OneDrive\Escritorio\Diseño de Sistemas\Grupo4\Informe5Grupo4\Informe5Grupo4\bin\Debug\net8.0\Core.pdb
+C:\Users\emili\OneDrive\Escritorio\Diseño de Sistemas\Grupo4\Informe5Grupo4\Informe5Grupo4\obj\Debug\net8.0\Informe5Grupo4.sourcelink.json
+C:\Users\emili\OneDrive\Escritorio\Diseño de Sistemas\Grupo4\Informe5Grupo4\Informe5Grupo4\obj\Debug\net8.0\Informe5.FE08CF30.Up2Date
