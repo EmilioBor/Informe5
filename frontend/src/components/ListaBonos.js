@@ -48,7 +48,7 @@ const ListadoNotas = () => {
         getData();
     },[])
     const getData = async () =>{
-        const respuesta = await axios.get('https://localhost:7126/Bonos')
+        const respuesta = await axios.get('https://localhost:7126/api/Bono')
         .then((respuesta)=>{
             setData(respuesta.data);
         })
