@@ -8,6 +8,7 @@ namespace Services.Interface
     {
         Task<IEnumerable<ProvinciaDtoOut>> GetAll();
         Task<Provincia?> GetById(int id);
+        Task<ProvinciaDtoOut?> GetDtoById(int id);
         Task<Provincia> Create(ProvinciaDtoIn newProvinciaDTO);
         Task Update(int id, ProvinciaDtoIn provincia);
         Task Delete(int id);

@@ -748,19 +748,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\emili\\.nuget\\packages\\": {}
+    "C:\\Users\\sebas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emili\\OneDrive\\Escritorio\\Diseño de Sistemas\\Grupo4\\Informe5Grupo4\\Services\\Services.csproj",
+      "projectUniqueName": "C:\\Users\\sebas\\Desktop\\Informe5\\Informe5Grupo4\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Diseño de Sistemas\\Grupo4\\Informe5Grupo4\\Services\\Services.csproj",
-      "packagesPath": "C:\\Users\\emili\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Diseño de Sistemas\\Grupo4\\Informe5Grupo4\\Services\\obj\\",
+      "projectPath": "C:\\Users\\sebas\\Desktop\\Informe5\\Informe5Grupo4\\Services\\Services.csproj",
+      "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sebas\\Desktop\\Informe5\\Informe5Grupo4\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\emili\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -774,11 +774,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\emili\\OneDrive\\Escritorio\\Diseño de Sistemas\\Grupo4\\Informe5Grupo4\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Diseño de Sistemas\\Grupo4\\Informe5Grupo4\\Core\\Core.csproj"
+            "C:\\Users\\sebas\\Desktop\\Informe5\\Informe5Grupo4\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\sebas\\Desktop\\Informe5\\Informe5Grupo4\\Core\\Core.csproj"
             },
-            "C:\\Users\\emili\\OneDrive\\Escritorio\\Diseño de Sistemas\\Grupo4\\Informe5Grupo4\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Diseño de Sistemas\\Grupo4\\Informe5Grupo4\\Data\\Data.csproj"
+            "C:\\Users\\sebas\\Desktop\\Informe5\\Informe5Grupo4\\Data\\Data.csproj": {
+              "projectPath": "C:\\Users\\sebas\\Desktop\\Informe5\\Informe5Grupo4\\Data\\Data.csproj"
             }
           }
         }
@@ -787,11 +787,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -813,7 +808,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
