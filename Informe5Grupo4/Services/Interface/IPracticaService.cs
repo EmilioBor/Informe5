@@ -8,6 +8,7 @@ namespace Services.Interface
     {
         Task<IEnumerable<PracticaDtoOut>> GetAll();
         Task<Practica?> GetById(int id);
+        Task<PracticaDtoOut?> GetDtoById(int id);
         Task<Practica> Create(PracticaDtoIn newPracticaDTO);
         Task Update(int id, PracticaDtoIn practica);
         Task Delete(int id);

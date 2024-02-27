@@ -963,6 +963,19 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      },
       "Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -974,6 +987,20 @@
         },
         "runtime": {
           "bin/placeholder/Data.dll": {}
+        }
+      },
+      "Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Core": "1.0.0",
+          "Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.dll": {}
         }
       }
     }
@@ -2715,10 +2742,20 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
+    },
     "Data/1.0.0": {
       "type": "project",
       "path": "../Data/Data.csproj",
       "msbuildProject": "../Data/Data.csproj"
+    },
+    "Services/1.0.0": {
+      "type": "project",
+      "path": "../Services/Services.csproj",
+      "msbuildProject": "../Services/Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2729,6 +2766,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.2",
       "Npgsql >= 8.0.2",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.2",
+      "Services >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -2761,6 +2799,9 @@
           "projectReferences": {
             "C:\\Users\\emili\\OneDrive\\Escritorio\\Diseño de Sistemas\\Grupo4\\Informe5Grupo4\\Data\\Data.csproj": {
               "projectPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Diseño de Sistemas\\Grupo4\\Informe5Grupo4\\Data\\Data.csproj"
+            },
+            "C:\\Users\\emili\\OneDrive\\Escritorio\\Diseño de Sistemas\\Grupo4\\Informe5Grupo4\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Diseño de Sistemas\\Grupo4\\Informe5Grupo4\\Services\\Services.csproj"
             }
           }
         }

@@ -8,6 +8,7 @@ namespace Services.Interface
     {
         Task<IEnumerable<PacienteDtoOut>> GetAll();
         Task<Paciente?> GetById(int id);
+        Task<PacienteDtoOut?> GetDtoById(int id);
         Task<Paciente> Create(PacienteDtoIn newPacienteDTO);
         Task Update(int id, PacienteDtoIn paciente);
         Task Delete(int id);

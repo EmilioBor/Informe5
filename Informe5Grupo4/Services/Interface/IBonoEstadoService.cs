@@ -8,6 +8,7 @@ namespace Services.Interface
     {
         Task<IEnumerable<BonoEstadoDtoOut>> GetAll();
         Task<BonoEstado?> GetById(int id);
+        Task<BonoEstadoDtoOut?> GetDtoById(int id);
         Task<BonoEstado> Create(BonoEstadoDtoIn newBonoEstadoDTO);
         Task Update(int id, BonoEstadoDtoIn bonoEstado);
         Task Delete(int id);

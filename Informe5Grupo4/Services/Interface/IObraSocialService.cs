@@ -8,6 +8,7 @@ namespace Services
     {
         Task<IEnumerable<ObraSocialDtoOut>> GetAll();
         Task<ObraSocial?> GetById(int id);
+        Task<ObraSocialDtoOut?> GetDtoById(int id);
         Task<ObraSocial> Create(ObraSocialDtoIn newObraSocialDTO);
         Task Update(int id, ObraSocialDtoIn obraSocial);
         Task Delete(int id);
