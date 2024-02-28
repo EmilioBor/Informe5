@@ -8,7 +8,7 @@ const TodosBonos = () => {
             <div className='row align-items-center'>
               <p class="fs-3">Bonos</p>
               <div className='col'>          
-                <a class="btn btn-primary" href="./Bonos/NuevoBono" role="button">Nuevo Bono</a>
+                <a class="btn btn-primary" href="./NuevoBono" role="button">Nuevo Bono</a>
     
               </div>
               <br></br>

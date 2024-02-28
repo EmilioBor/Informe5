@@ -225,6 +225,7 @@ const CancelarCarga = () => {
       // Muestra un mensaje de éxito utilizando react-toastify
       toast.success('Carga de bono realizada con éxito')
     } catch (error) {
+      
       console.error('Error al realizar la carga:', error.message);
       // Muestra un mensaje de error utilizando react-toastify
       toast.error('Error al realizar la carga');
@@ -436,7 +437,6 @@ const CancelarCarga = () => {
           <Button
             onClick={realizarCargaBono}
             className="Btn1"
-            type="submit"
             variant="primary"
             size="lg"
           >
