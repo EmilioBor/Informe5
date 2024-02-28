@@ -6,9 +6,9 @@ namespace Core.Request
     {
         public int Id { get; set; }
 
-        public DateOnly Fecha { get; set; }
+        public DateTime Fecha { get; set; }
 
-        public DateOnly FechaCarga { get; set; }
+        public DateTime FechaCarga { get; set; }
 
         public int Numero { get; set; }
 

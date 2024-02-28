@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Informe5Grupo4")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2c41fc5a1b6cca32bf0c1894e2abad689972cab")]
 [assembly: System.Reflection.AssemblyProductAttribute("Informe5Grupo4")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Informe5Grupo4")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
