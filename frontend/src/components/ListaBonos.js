@@ -49,12 +49,13 @@ const ListadoNotas = () => {
     },[])
     const getData = async () =>{
         const respuesta = await axios.get('https://localhost:7126/api/Bono')
-        .then((respuesta)=>{
+        try {
             setData(respuesta.data);
-        })
-        .catch((error)=>{
+
+        } catch (error) {
             console.log("Error al obtener la información de las notas")
-        })
+
+        }
     }
     // Limpiar inputs
     const clear = () => { 
@@ -152,14 +153,6 @@ const ListadoNotas = () => {
         });
     }
 
-    // const handleEditArchiveChange = (e) => {
-    //     if (e.target.checked){
-    //         setEditIsArchive(1)
-    //     }
-    //     else{
-    //         setEditIsArchive(0)
-    //     }
-    // }
 
     const fechaCarga = new Date();
 
@@ -171,10 +164,6 @@ const ListadoNotas = () => {
 
         <Container>
             <Row>
-                <Col sm = {2} md = {2} lg = {2} xl = {2} xxl = {2}>
-                    <Filter onFilterChange={handleFilterChange} />
-                </Col>
-
                 <Col>
                     <Table striped bordered hover>
                         <thead>
@@ -192,8 +181,8 @@ const ListadoNotas = () => {
                         </thead>
                         <tbody>
                         {
-                            filteredData.length > 0 ? 
-                            filteredData.map((item, index) => {
+                            data.length > 0 ? 
+                            data.map((item, index) => {
                                 return (
                                         <tr key={index}>
                                             <td>{item.numero}</td>
@@ -213,7 +202,7 @@ const ListadoNotas = () => {
                                     )
                                 })
                                 :
-                                'Seleccione un filtro'
+                                'Cargando bonos...'
                             }
                         </tbody>
                     </Table>
