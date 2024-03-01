@@ -16,7 +16,7 @@ function CustomImput({ value, onClick }) {
       <input type='text' className='form-control' value={value} onClick={onClick} readOnly></input>
       <div className='input-group-append'>
         <span className='input-group-text'>
-          <FaCalendarAlt />
+          <FaCalendarAlt size={24} />
         </span>
       </div>
     </div>
@@ -391,8 +391,8 @@ const CancelarCarga = () => {
                               <Form.Control
                                 value={searchPaciente}
                                 onChange={searcherPaciente}
-                                placeholder="Buscar odontologo"
-                                aria-label="Buscar odontologo"
+                                placeholder="Buscar paciente"
+                                aria-label="Buscar paciente"
                                 aria-describedby="basic-addon1"
                               />
                             </InputGroup>
@@ -432,7 +432,7 @@ const CancelarCarga = () => {
                 </Form.Group>
                 <div className="botonesAlPie mb-2">
           <Button className="Btn2" variant="secondary" size="lg" onClick={CancelarCarga}>
-            Cancelar
+            Volver
           </Button>{' '}
           <Button
             onClick={realizarCargaBono}

@@ -6,9 +6,14 @@ const TodosBonos = () => {
     <div>
       <div className="container text-center">
         <div className="row align-items-center">
-          <p class="fs-3">Bonos</p>
+          <p class="fs-3 mt-3">Bonos</p>
           <div className="col">
-            <a class="btn btn-primary" href="./Bonos/NuevoBono" role="button">
+          <a
+      className="btn btn-primary "
+      href="./Bonos/NuevoBono"
+      role="button"
+      style={{ fontSize: '15px', padding: '10px 20px' }}
+    >
               Nuevo Bono
             </a>
           </div>
