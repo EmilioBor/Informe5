@@ -1,12 +1,11 @@
 import React, { useState, useEffect, Fragment } from "react";
 import Table from "react-bootstrap/Table";
-import Button from "react-bootstrap/Button";
 import axios from "axios";
-import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Container } from "react-bootstrap";
+import moment from "moment"; // Importa moment
 
 const ListaBonos = () => {
   const [data, setData] = useState([]);
@@ -77,11 +76,11 @@ const ListaBonos = () => {
                           <td>{item.nombreObraSocial}</td>
                           <td>{item.nombrePaciente}</td>
                           <td>{item.nombrePractica}</td>
-                          <td>{item.fecha}</td>
-                          <td>{item.fechaCarga}</td>
+                          <td>{moment(item.fecha).format('DD-MM-YYYY')}</td>
+                          <td>{moment(item.fechaCarga).format('DD-MM-YYYY')}</td>
                           <td>{item.nombreBonoEstado}</td>
                           <td colSpan={2}>
-                          <button className="btn btn-primary btn-sm">
+                            <button className="btn btn-primary btn-sm">
                               Detalles
                             </button>{" "}
                             &nbsp;
